@@ -15,7 +15,7 @@ export default function App() {
   aria-label="Email"
   className="p-2 rounded-full hover:bg-blue-500 transition"
 >
-  <Mail className="w-6 h-6" />  //https://shubha7496.github.io/portfolio/
+  <Mail className="w-6 h-6" />  
 </a>
 
 
@@ -43,8 +43,8 @@ export default function App() {
         {/* Download Resume Button */}
         <div className="mt-6">
          <a
-  href="/portfolio/shubham_singh_rajput.pdf"   // portfolio = your repo name
-  download="shubham_singh_rajput.pdf"
+  href="/portfolio/resume.pdf"   // portfolio = your repo name
+  download="resume.pdf"
   className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
 >
   Download Resume

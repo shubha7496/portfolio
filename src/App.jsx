@@ -10,9 +10,15 @@ export default function App() {
 
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
-          <a href="mailto:rajputshubham7496@gmail.com" aria-label="Email">
-            <Mail />
-          </a>
+<a
+  href="mailto:rajputshubham7496@gmail.com"
+  aria-label="Email"
+  className="p-2 rounded-full hover:bg-blue-500 transition"
+>
+  <Mail className="w-6 h-6" />  //https://shubha7496.github.io/portfolio/
+</a>
+
+
           <a href="tel:+917489102883" aria-label="Phone">
             <Phone />
           </a>
@@ -36,13 +42,14 @@ export default function App() {
 
         {/* Download Resume Button */}
         <div className="mt-6">
-          <a
-            href="/resume.pdf"
-            download
-            className="bg-white text-blue-600 px-6 py-2 rounded-2xl font-semibold shadow hover:bg-gray-200 transition"
-          >
-            📄 Download Resume
-          </a>
+         <a
+  href="/portfolio/shubham_singh_rajput.pdf"   // portfolio = your repo name
+  download="shubham_singh_rajput.pdf"
+  className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
+>
+  Download Resume
+</a>
+
         </div>
       </header>
 

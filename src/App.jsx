@@ -11,7 +11,9 @@ export default function App() {
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
 <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=Contact%20from%20Portfolio&body=Hello%20Shubham,"
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=${encodeURIComponent(
+    "Contact from Portfolio"
+  )}&body=${encodeURIComponent("Hello Shubham,")}`}
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Email"
@@ -20,6 +22,7 @@ export default function App() {
 >
   <Mail className="w-6 h-6 pointer-events-none" />
 </a>
+
 
 
 

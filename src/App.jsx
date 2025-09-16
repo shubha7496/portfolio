@@ -11,13 +11,16 @@ export default function App() {
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
 <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=Contact%20from%20Portfolio&body=Hello%20Shubham,"
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Email"
-  className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer inline-flex items-center justify-center"
+  class="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
+  style="display: inline-flex; align-items: center;"
 >
-  <Mail className="w-6 h-6" />
+  <svg class="w-6 h-6 pointer-events-none" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </svg>
 </a>
 
 

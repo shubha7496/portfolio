@@ -11,12 +11,13 @@ export default function App() {
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
 <a
-  href="mailto:rajputshubham7496@gmail.com"
+  href="mailto:rajputshubham7496@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Shubham,"
   aria-label="Email"
   className="p-2 rounded-full hover:bg-blue-500 transition"
 >
-  <Mail className="w-6 h-6" />  
+  <Mail className="w-6 h-6" />
 </a>
+
 
 
           <a href="tel:+917489102883" aria-label="Phone">

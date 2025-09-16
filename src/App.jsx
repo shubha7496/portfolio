@@ -11,17 +11,15 @@ export default function App() {
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
 <a
-  href={`https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=${encodeURIComponent(
-    "Contact from Portfolio"
-  )}&body=${encodeURIComponent("Hello Shubham,")}`}
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Email"
-  className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
-  style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}
+  className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer inline-flex items-center justify-center"
 >
-  <Mail className="w-6 h-6 pointer-events-none" />
+  <Mail className="w-6 h-6" />
 </a>
+
 
 
 

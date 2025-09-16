@@ -11,12 +11,15 @@ export default function App() {
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
 <a
-  href="mailto:rajputshubham7496@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Shubham,"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=Contact%20from%20Portfolio&body=Hello%20Shubham,"
+  target="_blank"
+  rel="noopener noreferrer"
   aria-label="Email"
   className="p-2 rounded-full hover:bg-blue-500 transition"
 >
   <Mail className="w-6 h-6" />
 </a>
+
 
 
 

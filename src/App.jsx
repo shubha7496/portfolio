@@ -15,9 +15,10 @@ export default function App() {
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Email"
-  className="p-2 rounded-full hover:bg-blue-500 transition"
+  className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
+  style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}
 >
-  <Mail className="w-6 h-6" />
+  <Mail className="w-6 h-6 pointer-events-none" />
 </a>
 
 

@@ -10,59 +10,63 @@ export default function App() {
 
         {/* Icons */}
         <div className="flex justify-center gap-6 mt-4">
-<a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=rajputshubham7496@gmail.com&su=Contact%20from%20Portfolio&body=Hello%20Shubham,"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Email"
-  class="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
-  style="display: inline-flex; align-items: center;"
->
-  <svg class="w-6 h-6 pointer-events-none" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-  </svg>
-</a>
-
-
-
-
-
-
-          <a href="tel:+917489102883" aria-label="Phone">
-            <Phone />
+          {/* Gmail Icon - Fixed */}
+          <a
+            href="mailto:rajputshubham7496@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Shubham,"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Email"
+            className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
+            style={{ display: "inline-flex", alignItems: "center" }}
+          >
+            <Mail className="w-6 h-6 pointer-events-none" />
           </a>
+
+          {/* Phone Icon */}
+          <a 
+            href="tel:+917489102883" 
+            aria-label="Phone"
+            className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
+          >
+            <Phone className="w-6 h-6 pointer-events-none" />
+          </a>
+
+          {/* LinkedIn Icon */}
           <a
             href="https://www.linkedin.com/in/shubham-rajput-connect/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
+            className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
           >
-            <Linkedin />
+            <Linkedin className="w-6 h-6 pointer-events-none" />
           </a>
+
+          {/* GitHub Icon */}
           <a
             href="https://github.com/shubha7496"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="GitHub"
+            className="p-2 rounded-full hover:bg-blue-500 transition cursor-pointer"
           >
-            <Github />
+            <Github className="w-6 h-6 pointer-events-none" />
           </a>
         </div>
 
         {/* Download Resume Button */}
         <div className="mt-6">
-         <a
-  href="/portfolio/resume.pdf"   // portfolio = your repo name
-  download="resume.pdf"
-  className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
->
-  Download Resume
-</a>
-
+          <a
+            href="/portfolio/resume.pdf"
+            download="Shubham_Singh_Rajput_Resume.pdf"
+            className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
+          >
+            Download Resume
+          </a>
         </div>
       </header>
 
-      {/* Summary */}
+      {/* Rest of your content remains the same */}
       <section className="max-w-5xl mx-auto p-6">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
